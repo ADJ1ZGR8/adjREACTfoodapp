@@ -1,0 +1,29 @@
+.searchContainer {
+  margin: 20px auto;
+  width: 300px;
+  position: relative;
+}
+
+.searchInput {
+  /* border: none; */
+  /* border-bottom: 1px solid #e3e4dc; */
+  /* padding: 10px 20px; */
+  /* width: 100%; */
+  outline: none;
+  font-size: 16px;
+  color: #393e46;
+
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* Add padding to avoid overlap with the icon */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Optional: for rounded corners */
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px; /* Adjust for padding */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevent clicks on the icon */
+  font-size: 18px; /* Adjust icon size */
+}
